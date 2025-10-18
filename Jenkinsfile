@@ -7,7 +7,7 @@ pipeline {
                 // Pull code from GitHub
                 git branch: 'main',
                     credentialsId: 'github-token',
-                    url: 'https://github.com/AFNANFAYOOB'
+                    url: 'https://github.com/AFNANFAYOOB/aws-vpc-terraform-setup'
             }
         }
 
