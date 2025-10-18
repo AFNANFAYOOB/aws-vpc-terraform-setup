@@ -32,8 +32,6 @@ pipeline {
     }
 
     post {
-        always {
-        }
         success {
             echo '✅ Python build and tests passed successfully!'
         }
