@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Pull code from GitHub
                 git branch: 'main',
-                    credentialsId: 'github-token-repo',
+                    credentialsId: 'github-token',
                     url: 'https://github.com/AFNANFAYOOB'
             }
         }
